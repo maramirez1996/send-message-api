@@ -8,7 +8,7 @@ import { NotificationsModule } from './notification/notification.module';
 @Module({
   imports: [
  TypeOrmModule.forRoot({
- url: process.env.DATABASE_URL,
+ url: process.env.DATABASE_PUBLIC_URL,
   //type: 'postgres',
   //host: 'localhost',
   //port: 5432,
